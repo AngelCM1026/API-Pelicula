@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Imagen de la película -->
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scaleType="centerCrop" />
+
+        <!-- ID de la película -->
+        <TextView
+            android:id="@+id/lblid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/white"
+            android:text="ID"
+            android:textAlignment="center"
+            android:textColor="#E60707"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Título de la película -->
+        <TextView
+            android:id="@+id/lbltitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="TITULO"
+            android:textAlignment="center"
+            android:textColor="#1B388A"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblestreno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="FECHA ESTRENO"
+            android:textAlignment="center"
+            android:textColor="#24CA10"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <!-- Descripción de la película -->
+        <TextView
+            android:id="@+id/lbldescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="DESCRIPCION"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Fecha de la película -->
+    </LinearLayout>
+</ScrollView>
